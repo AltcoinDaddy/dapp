@@ -17,7 +17,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Progress } from "@/components/ui/progress";
 
 // Contract Configuration
-const CONTRACT_ADDRESS = "0xb25aFefDBe2D0Cc8DDC5F305a244F45a2aAa824F";
+const CONTRACT_ADDRESS = "0xCf2Fc01aa0565071dCDF7517eA4E616312ed5F50";
 const MINT_PRICE = 0.005;
 const MAX_SUPPLY = 9000;
 // const AVALANCHE_RPC = "https://api.avax-test.network/ext/bc/C/rpc";

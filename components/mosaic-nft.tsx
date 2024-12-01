@@ -129,7 +129,7 @@ if (typeof document !== "undefined") {
   document.head.appendChild(styleSheet);
 }
 
-export default function MosaicNFTInterface() {
+export default function MosaicNFT() {
   // State Management
   const [quantity, setQuantity] = useState(1);
   const [isConnected, setIsConnected] = useState(false);

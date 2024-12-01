@@ -16,7 +16,7 @@ export default function Shop() {
         Shop
       </h1>
       <p className="my-5">
-        Purchase players with $GOAL and $CHZ to increase your earnings.
+        Purchase players with $MOA and $AVAX to increase your earnings.
       </p>
 
       {!nfts ? (

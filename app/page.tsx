@@ -96,7 +96,7 @@ export default function Home() {
               ))}
             </div>
             <div>
-              <p className="text-sm font-bold">$GOAL Balance:</p>
+              <p className="text-sm font-bold">$MOA Balance:</p>
               {rewardBalance && (
                 <p>{ethers.utils.formatUnits(rewardBalance, 18)}</p>
               )}

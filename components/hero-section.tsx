@@ -11,10 +11,10 @@ export default function HeroSection() {
   return (
     <div className="flex flex-col items-center justify-center mt-[1rem] p-3">
       <h1 className="scroll-m-20 text-4xl mt-5 sm:text-4xl md:text-6xl font-semibold tracking-tight lg:text-6xl text-center max-w-[700px]">
-        Welcome to NFTNetball
+        Welcome to MOA
       </h1>
       <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg text-center mt-2 dark:text-gray-400">
-      Where Sports Meet Innovation
+      Algo-crafted art on avax , Animated & Stake2Earn Community-driven art Game
 
       </p>
 

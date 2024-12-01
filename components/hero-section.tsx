@@ -14,7 +14,7 @@ export default function HeroSection() {
         Welcome to MOA
       </h1>
       <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg text-center mt-2 dark:text-gray-400">
-      Algo-crafted art on avax , Animated & Stake2Earn Community-driven art Game
+       Animated NFT Stake2Earn Community-driven art Game on AVAX
 
       </p>
 
@@ -28,12 +28,12 @@ export default function HeroSection() {
           <div className="relative flex max-w-6xl justify-center overflow-hidden mt-7">
             <div className="relative rounded-xl p-1">
               <img
-                src="/images/image-1.jpg"
+                src="/images/sticker_118.png"
                 alt="Hero Image"
                 className="block dark:hidden w-[1200px] rounded-[inherit] border object-contain shadow-lg"
               />
               <img
-                src="/images/image-1.jpg"
+                src="/images/sticker_118.png"
                 alt="Hero Image"
                 className="hidden dark:block w-[1200px] rounded-[inherit] border object-contain shadow-lg"
               />
@@ -53,12 +53,12 @@ export default function HeroSection() {
           <div className="relative flex max-w-6xl justify-center overflow-hidden mt-7">
             <div className="relative rounded-xl p-1">
               <img
-                src="/images/image-2.jpg"
+                src="/images/sticker_134.png"
                 alt="Hero Image"
                 className="block dark:hidden w-[1200px] rounded-[inherit] border object-contain shadow-lg"
               />
               <img
-                src="/images/image-2.jpg"
+                src="/images/sticker_134.png"
                 alt="Hero Image"
                 className="hidden dark:block w-[1200px] rounded-[inherit] border object-contain shadow-lg"
               />
@@ -78,12 +78,12 @@ export default function HeroSection() {
           <div className="relative flex max-w-6xl justify-center overflow-hidden mt-7">
             <div className="relative rounded-xl p-1">
               <img
-                src="/images/image-3.jpg"
+                src="/images/sticker_135.png"
                 alt="Hero Image"
                 className="block dark:hidden w-[1200px] rounded-[inherit] border object-contain shadow-lg"
               />
               <img
-                src="/images/image-3.jpg"
+                src="/images/sticker_135.png"
                 alt="Hero Image"
                 className="hidden dark:block w-[1200px] rounded-[inherit] border object-contain shadow-lg"
               />

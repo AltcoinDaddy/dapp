@@ -33,7 +33,7 @@ export function NavBar() {
         </SheetTrigger>
         <SheetContent side="left">
           <SheetHeader>
-            <SheetTitle>NFTNetball</SheetTitle>
+            <SheetTitle>MOSAIC ON AVAX</SheetTitle>
           </SheetHeader>
           <div className="flex flex-col space-y-3 mt-[1rem]">
             <DialogClose asChild>
@@ -61,7 +61,7 @@ export function NavBar() {
         </SheetContent>
       </Dialog>
       <Link href="/" className="pl-2">
-        NFTNetball
+        MOA
       </Link>
       <NavigationMenu className="">
         <NavigationMenuList className="max-[825px]:hidden ">

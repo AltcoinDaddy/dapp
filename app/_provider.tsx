@@ -10,12 +10,12 @@ import {
   rainbowWallet,
   walletConnect,
 } from "@thirdweb-dev/react";
-import { ChilizChain } from "@thirdweb-dev/chains";
+import { Avalanche } from "@thirdweb-dev/chains";
 
 export function Provider({ children }: { children: React.ReactNode }) {
   return (
     <ThirdwebProvider
-      activeChain={ChilizChain}
+      activeChain={Avalanche}
       clientId={process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID}
       locale={en()}
       // signer={}

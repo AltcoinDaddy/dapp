@@ -17,8 +17,8 @@ export function Provider({ children }: { children: React.ReactNode }) {
     <ThirdwebProvider
       activeChain={Avalanche}
       clientId={process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID}
+      secretKey={process.env.THIRDWEB_SECRET_KEY}
       locale={en()}
-      // signer={}
       supportedWallets={[
         metamaskWallet(),
         coinbaseWallet(),

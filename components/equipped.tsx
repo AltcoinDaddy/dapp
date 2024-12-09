@@ -65,7 +65,7 @@ export const Equipped = (props: EquippedProps) => {
                 contract.call("claimRewards", [props.tokenId])
               }
             >
-              Claim $GOAL
+              Claim $MOA
             </Web3Button>
           </div>
         </Card>

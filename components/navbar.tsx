@@ -56,6 +56,12 @@ export function NavBar() {
                   Mint
                 </Button>
               </Link>
+            </DialogClose> <DialogClose asChild>
+              <Link href="https://opensea.io/mosaiconavax">
+                <Button variant="outline" className="w-full">
+                  Opensea 
+                </Button>
+              </Link>
             </DialogClose>
           </div>
         </SheetContent>
@@ -92,7 +98,17 @@ export function NavBar() {
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Mint
               </NavigationMenuLink>
+            </Link><Link
+              href="https://opensea.io/mosaiconavax"
+              legacyBehavior
+              passHref
+              className="cursor-pointer"
+            >
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Opensea 
+              </NavigationMenuLink>
             </Link>
+
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
